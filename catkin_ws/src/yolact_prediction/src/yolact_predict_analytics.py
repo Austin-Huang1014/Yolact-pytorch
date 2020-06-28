@@ -34,7 +34,7 @@ import torch.nn.functional as F
 import torch
 from torchvision import models
 from torchvision.models.vgg import VGG
-from sklearn.metrics import confusion_matrix
+# from sklearn.metrics import confusion_matrix
 # from subt_msgs.msg import *
 
 import torch.backends.cudnn as cudnn

@@ -1,8 +1,0 @@
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/share/cv_bridge/cmake/cv_bridgeConfig.cmake
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/share/cv_bridge/cmake/cv_bridge-extras.cmake
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/lib/libcv_bridge.so
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/lib/python3/dist-packages/cv_bridge/__init__.py
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/lib/python3/dist-packages/cv_bridge/boost/__init__.py
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/lib/python3/dist-packages/cv_bridge/boost/cv_bridge_boost.so
-Symlinking /home/alex/yolact_tmp/Yolact_minimal/catkin_ws/devel/lib/pkgconfig/cv_bridge.pc
