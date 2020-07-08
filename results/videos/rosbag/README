@@ -1,6 +1,0 @@
-video to images
-$ python video2image.py [input video] [output dir]
-
-images to rosbag 
-$ python images2rosbag.py [images dir] [name.bag]
-
