@@ -59,7 +59,7 @@ with torch.no_grad():
     # detect images
     if args.image is not None:
         # images = glob.glob(args.image + '/*.jpg')
-        images = glob.glob("/home/alex/yolact_tmp/Yolact_minimal/results/images/10.png")
+        images = glob.glob("/home/alex/Yolact_pytorch/results/images/10.png")
 
         num = len(images)
         print(num)
@@ -90,7 +90,7 @@ with torch.no_grad():
     # detect videos
     elif args.video is not None:
         # vid = cv2.VideoCapture('videos/' + args.video)
-        vid = cv2.VideoCapture("/home/alex/yolact_tmp/Yolact_minimal/results/videos/SubT Challenge Urban Circuit Beta Course Configuration 2 Artifact Walkthrough.mp4")
+        vid = cv2.VideoCapture("/home/alex/Yolact_pytorch/results/videos/SubT Challenge Urban Circuit Beta Course Configuration 2 Artifact Walkthrough.mp4")
 
 
         target_fps = round(vid.get(cv2.CAP_PROP_FPS))

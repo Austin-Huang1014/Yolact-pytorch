@@ -5,6 +5,7 @@ devel/
 *.bag
 *.pth
 *.pkl
+*.jpg
 catkin_ws/bin/
 catkin_ws/include/
 catkin_ws/lib/
@@ -21,3 +22,4 @@ artifact_position*.txt
 *.wav
 output/
 coco/
+*.mp4
