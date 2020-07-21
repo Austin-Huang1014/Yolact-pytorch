@@ -13,15 +13,22 @@ Yolact uses Python 3. If you use a ROS version built with Python 2, additional s
   ```Shell
   git clone -b melodic https://github.com/ros-perception/vision_opencv.git
   ```
-- If you use PC catkin_make, compile with
+- First method catkin_make,  
+  
+  - If you use PC catkin_make, compile with
   ```Shell
   catkin_make -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
   ```
-- If you use Xavier catkin_make, compile with
+  - If you use Xavier catkin_make, compile with
   ```Shell
   catkin_make -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/aarch64-linux-gnu/libpython3.6m.so
   ```
-- For catkin tools, use
+- Second method for script,
+  ```Shell
+  cd ..
+  source how_to_solve_python3_cv2.sh
+  ```
+- Third method for catkin tools, use
   ```Shell
   catkin config -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
   catkin build
